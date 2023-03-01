@@ -1,5 +1,6 @@
 <?php
     require 'vendor/autoload.php';
+    
     class Database{
         private string $host;
         private string $db_name;

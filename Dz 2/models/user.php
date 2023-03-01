@@ -5,8 +5,8 @@ class User {
     public int $id;
     public string $username;
     public string $name;
-    public int $city_id; 
     public string $city_name;
+    public int $city_id; 
 
     public function __construct($db) 
     {
@@ -15,7 +15,7 @@ class User {
 
     public function get(): bool|PDOStatement 
     {
-        $query = "SELECT city.name as city_name, user.id, user.name, user.username FROM " . $this->table_name . "  LEFT JOIN city ON user.city_id = city.id ORDER BY  user.id DESC";
+        $query = "SELECT user.id, user.name, user.username, city.name as city_name FROM " . $this->table_name . "  LEFT JOIN city ON user.city_id = city.id ORDER BY  user.id DESC";
         $stmt = $this->connect->prepare($query);
         $stmt->execute();
         
@@ -24,7 +24,7 @@ class User {
 
     public function create(): bool 
     {
-        $query = "INSERT INTO "  . $this->table_name . " SET name =: name, city_id =: city_id, username =: username";
+        $query = "INSERT INTO "  . $this->table_name . " SET name =: name, username =: username, city_id =: city_id";
         $stmt = $this->connect->prepare($query);
 
         $this->name = htmlspecialchars(strip_tags($this->name));
