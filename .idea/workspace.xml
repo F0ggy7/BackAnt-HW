@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c6058a7-2bff-4ba7-9520-b91b4f8f8579" name="Changes" comment="Dz 3 Completed" />
+    <list default="true" id="0c6058a7-2bff-4ba7-9520-b91b4f8f8579" name="Changes" comment="Dz 3 Completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +68,7 @@
       <updated>1679701072898</updated>
       <workItem from="1679701075200" duration="1285000" />
       <workItem from="1679926392277" duration="11292000" />
-      <workItem from="1679946863356" duration="1624000" />
+      <workItem from="1679946863356" duration="4754000" />
     </task>
     <task id="LOCAL-00001" summary="Dz 3">
       <created>1679926456602</created>
@@ -89,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679947856744</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dz 3 Completed">
+      <created>1679949164999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679949164999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
